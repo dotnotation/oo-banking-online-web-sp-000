@@ -1,7 +1,5 @@
 require 'pry'
 class BankAccount
-    # one instance of the class can transfer money to another instance through Transfer class
-    # initialize with a name, balance of 1000, status open, can't change name
     attr_accessor :status, :balance
     attr_reader :name
     
